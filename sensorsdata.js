@@ -457,7 +457,7 @@ _.info = {
             e.$screen_width = Number(t["windowWidth"]);
             e.$screen_height = Number(t["windowHeight"]);
             e.$os = t["platform"];
-            e.$os_version = t["version"];
+            e.$os_version = t["system"];
             that.setStatusComplete();
           },
           complete : that.setStatusComplete
