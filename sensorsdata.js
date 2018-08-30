@@ -456,8 +456,8 @@ _.info = {
             e.$model = t["model"];
             e.$screen_width = Number(t["windowWidth"]);
             e.$screen_height = Number(t["windowHeight"]);
-            e.$os = t["system"].split(' ')[0];
-            e.$os_version = t["system"].split(' ')[1];
+            e.$os = t["platform"];
+            e.$os_version = t["version"];
             that.setStatusComplete();
           },
           complete : that.setStatusComplete
