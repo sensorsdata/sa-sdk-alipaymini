@@ -19,7 +19,7 @@ var ArrayProto = Array.prototype,
   slice = ArrayProto.slice,
   toString = ObjProto.toString,
   hasOwnProperty = ObjProto.hasOwnProperty,
-  LIB_VERSION = '0.1',
+  LIB_VERSION = '0.2',
   LIB_NAME = 'AlipayMini';
 
 var source_channel_standard = 'utm_source utm_medium utm_campaign utm_content utm_term';
@@ -556,13 +556,11 @@ sa.store = {
 
   },
   getStorage: function () {
-    return my.getStorageSync({key: 'sensorsdata2015_zfb'}) || '';
+    return my.getStorageSync({key: 'sensorsdata2015_zfb'}) || {};
   },
   _state: {},
-  toState: function (ds) {
-    var state = null;
-    if (_.isJSONString(ds)) {
-      state = JSON.parse(ds);
+  toState: function (state) {
+    if (typeof state === 'object') {
       if (state.distinct_id) {
         this._state = state;
       } else {
@@ -614,8 +612,7 @@ sa.store = {
     
   },
   init: function () {
-  var a =this.getStorage();
-    var info = JSON.stringify(this.getStorage().data);
+    var info = this.getStorage().data;
     if (info) {
       this.toState(info);
     } else {
