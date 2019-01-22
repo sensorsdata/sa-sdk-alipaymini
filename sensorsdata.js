@@ -454,8 +454,8 @@ _.info = {
         my.getSystemInfo({
           success : function (t) {
             e.$model = t["model"];
-            e.$screen_width = Number(t["windowWidth"]);
-            e.$screen_height = Number(t["windowHeight"]);
+            e.$screen_width = Number(t["screenWidth"]);
+            e.$screen_height = Number(t["screenHeight"]);
             e.$os = t["platform"];
             //e.$os_version = t["version"];
             e.$manufacturer = t["brand"];
@@ -470,7 +470,6 @@ _.info = {
 
       my.getNetworkType({
         success : function (t) {
-          console.log('000000001')
           e.$network_type = t["networkType"];
           getSystemInfo();
         },
