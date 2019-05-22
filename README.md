@@ -8,4 +8,4 @@
 
 | 版本号 | 更新内容 |
 | ------ | ------ |
-| 0.4 | 增加了预置事件 $MPLaunch, $MPShow, $MPHide|
+| 1.0.1 | 增加了预置事件 $MPLaunch, $MPShow, $MPHide|
