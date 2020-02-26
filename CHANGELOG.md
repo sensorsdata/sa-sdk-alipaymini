@@ -1,6 +1,9 @@
+## 1.0.7 (2020-02-26)
+* 新增：新增 sensorsdata.custom.min.js 文件，去除了 sensorsdata_conf.js 文件，初始化时使用 setPara() 方法初始化参数；
+* 修复：点击事件处理函数中调用其他函数时传递对象参数报错问题；
+
 ## 1.0.6 (2020-02-17)
 * 新增：支持全埋点版本，自动采集 $MPLaunch（小程序启动)、$MPShow（小程序显示）、$MPHide（小程序进入后台）、$MPViewScreen（小程序页面浏览）、$MPClick（小程序元素点击）五个预置事件；
-* 优化：去除 sensorsdata_conf.js 文件，使用 setPara() 方法初始化配置参数；
 
 ## 1.0.5
 * 统一格式化所有小程序的预置属性$os的取值，从系统默认的ios改成了iOS，android或Android
