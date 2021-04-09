@@ -1,12 +1,13 @@
 {
   "name": "sa-sdk-alipaymini",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "神策支付宝小程序SDK",
   "main": "sensorsdata.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
+    "hot":"node dev_hot_update",
     "type": "git",
     "url": "git+https://github.com/sensorsdata/sa-sdk-alipaymini.git"
   },
