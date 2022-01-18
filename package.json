@@ -1,6 +1,6 @@
 {
   "name": "sa-sdk-alipaymini",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "神策支付宝小程序SDK",
   "main": "sensorsdata.min.js",
   "scripts": {
