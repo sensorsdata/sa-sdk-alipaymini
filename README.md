@@ -15,6 +15,14 @@
 注意 SDK 可能不完全向前兼容，请查看版本更新说明 [CHANGELOG.md](CHANGELOG.md)。如果有说明不兼容的话，需要升级神策分析对应的版本。
 请根据需要前往 [Releases](https://github.com/sensorsdata/sa-sdk-alipaymini/releases) 里下载对应的文件
 
+## 神策埋点 SDK 官网
+如需了解神策埋点 SDK 的更多商业授权信息，请访问[神策埋点 SDK 官网](https://jssdk.debugbox.sensorsdata.cn/)获取更多详细信息。
+
+## 联系我们
+若您有商业合作或产品集成需求，请通过下面的渠道联系我们获取专业服务与支持。
+
+| 加微信号：skycode008，或扫码添加联系人 <img src="https://github.com/sensorsdata/sa-sdk-android/blob/master/WechatIMG180.jpg" width="300" height="450" /> | 扫码关注「神策埋点 SDK」公众号 ![gzh](https://github.com/sensorsdata/sa-sdk-android/blob/master/gzh.jpeg) |
+| ------ | ------ |
 
 ## 版本更新记录
 
